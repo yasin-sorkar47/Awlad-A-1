@@ -113,3 +113,58 @@ a {
   color: white;
 }
 /* banner end */
+
+/* development section start */
+.development-section {
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+  margin-top: 74px;
+  padding: 80px;
+}
+.heding-section {
+  text-align: center;
+  margin-bottom: 86px;
+}
+
+.heding-section p {
+  width: 862px;
+  margin: 0 auto;
+}
+
+.development-section .coding-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  border-radius: 16px;
+
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+  padding: 48px;
+  padding-bottom: 10px;
+}
+
+.development-section .coding-section:last-child {
+  margin-bottom: 0;
+}
+.development-section .coning-info {
+  width: 497px;
+}
+.development-section .coding-section h3 {
+  color: rgba(13, 19, 33, 0.7);
+  font-family: Azeret Mono;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 36px;
+  margin-bottom: 16px;
+}
+.development-section .coding-section p {
+  margin-bottom: 32px;
+}
+.development-section a {
+  color: rgb(13, 19, 33);
+}
+
+/* development section end */
