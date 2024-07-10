@@ -186,3 +186,58 @@ a {
   padding: 32px;
 }
 /* inspiration section end  */
+
+/* current target start  */
+.current-target {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.current-target p {
+  max-width: 852px;
+  margin: 0 auto;
+}
+.target {
+  display: flex;
+  gap: 34px;
+  justify-content: center;
+}
+
+.target .target-item {
+  margin-top: 48px;
+  width: 284px;
+  padding: 40px;
+  border-radius: 16px;
+}
+
+.target .item-one {
+  background: rgba(255, 76, 30, 0.05);
+}
+.target .item-two {
+  background: rgba(0, 76, 232, 0.05);
+}
+.target .item-three {
+  background: rgba(255, 223, 0, 0.05);
+}
+
+.target .target-item h3 {
+  font-size: 18px;
+  margin-top: 30px;
+  line-height: 0;
+}
+
+.target .target-item .button {
+  margin-top: 10px;
+}
+.target .target-item p {
+  font-size: 9px;
+  line-height: 19px;
+}
+.target .target-item a {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration-line: underline;
+}
+/* current target end */
