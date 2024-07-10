@@ -168,3 +168,21 @@ a {
 }
 
 /* development section end */
+
+/* inspiration section start  */
+.inspiration {
+  text-align: center;
+  margin-top: 88px;
+}
+.inspiration p {
+  width: 852px;
+  margin: 0 auto;
+}
+.inspiration iframe {
+  margin-top: 48px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+  padding: 32px;
+}
+/* inspiration section end  */
