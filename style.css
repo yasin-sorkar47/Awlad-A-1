@@ -288,3 +288,47 @@ a {
   text-decoration-line: underline;
 }
 /* next target end */
+
+/* support section start  */
+.support {
+  margin-top: 41px;
+  border-radius: 16px;
+  padding: 64px;
+  background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2),
+    url(Email);
+  background-image: url("/assets/image/handshake.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.support h2 {
+  line-height: 0;
+  color: rgb(255, 255, 255);
+}
+
+.support p {
+  color: rgb(255, 255, 255);
+  opacity: 0.7;
+}
+
+.support .form {
+  margin-top: 24px;
+}
+
+.support .form .text-input {
+  width: 548px;
+  padding: 12px 13px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+.support .submit {
+  padding: 12px 13px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+/* support section end */
